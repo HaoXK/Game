@@ -1,4 +1,3 @@
-import java.util.logging.Level;
 
 public class Game {
     private Level levelOne;
@@ -32,13 +31,12 @@ public class Game {
         int points = 0;
         if (levelOne.goalReached()) {
             points += levelOne.getPoints();
-            if (levelTwo.goalReached()) [
+            if (levelTwo.goalReached()) 
                 points += levelTwo.getPoints(); 
                 if (levelThree.goalReached()) {
                     points += levelThree.getPoints();
                     if (isBonus()) points *= 3;
                 }
-            ]
         }
         return points;
     }
