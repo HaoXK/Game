@@ -12,5 +12,8 @@ public class Main
     one.makeBonus();
 
     System.out.println(one.getScore());
+
+    Game five = new Game();
+    System.out.println(five.playManyTimes(4));
     }
   }
