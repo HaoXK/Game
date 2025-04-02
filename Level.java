@@ -16,4 +16,3 @@ public class Level {
         points = p;
     }
 }
-                            
